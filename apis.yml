@@ -1,0 +1,39 @@
+aid: customs-and-border-protection
+name: Customs and Border Protection
+description: >-
+  APIS enhances border security by providing officers with pre-arrival and
+  departure manifest data on all passengers and crew members. APIS Fact Sheet;
+  eAPIS Online Transmission System: The Electronic Advance Passenger Information
+  System (eAPIS) web portal enables users to create, manage, and submit APIS
+  manifests.
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - API
+created: '2024-12-03'
+modified: '2024-12-03'
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/customs-and-border-protection/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis:
+  - aid: customs-and-border-protection:customs-and-border-protection
+    name: Customs and Border Protection
+    description: >-
+      APIS enhances border security by providing officers with pre-arrival and
+      departure manifest data on all passengers and crew members. APIS Fact
+      Sheet; eAPIS Online Transmission System: The Electronic Advance Passenger
+      Information System (eAPIS) web portal enables users to create, manage, and
+      submit APIS manifests.
+    humanURL: >-
+      https://www.cbp.gov/travel/travel-industry-personnel/advance-passenger-information-system
+    tags:
+      - API
+    properties:
+      - type: Documentation
+        url: >-
+          https://www.cbp.gov/travel/travel-industry-personnel/advance-passenger-information-system
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
