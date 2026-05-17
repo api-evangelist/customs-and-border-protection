@@ -1,6 +1,6 @@
 aid: customs-and-border-protection
 name: Customs and Border Protection
-x-type: government
+kind: government
 description: >-
   U.S. Customs and Border Protection (CBP) is the federal law enforcement
   agency within the Department of Homeland Security responsible for
