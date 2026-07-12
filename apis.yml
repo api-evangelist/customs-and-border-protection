@@ -166,6 +166,8 @@ apis:
       - type: Documentation
         url: https://www.cbp.gov/border-security/ports-entry/cargo-security/acas
 common:
+  - type: DomainSecurity
+    url: security/customs-and-border-protection-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/US-CBP
   - type: Website
@@ -190,6 +192,8 @@ common:
     url: https://www.linkedin.com/company/u-s-customs-and-border-protection/
   - type: YouTube
     url: https://www.youtube.com/user/CustomsBorderProtect
+  - url: https://www.cbp.gov/rss.xml
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
