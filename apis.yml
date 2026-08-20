@@ -42,6 +42,25 @@ tags:
   - ACAS
   - AES
   - AESDirect
+  - Borders
+  - Cargo
+  - CBP
+  - Customs
+  - Department of Homeland Security
+  - DHS
+  - EDI
+  - Export
+  - Federal-Government
+  - Imports
+  - International Trade
+  - Manifests
+  - Single Window
+  - Trade Compliance
+tags_raw:
+  - ACE
+  - ACAS
+  - AES
+  - AESDirect
   - APIS
   - Borders
   - Cargo
@@ -72,6 +91,12 @@ apis:
     humanURL: https://www.cbp.gov/travel/travel-industry-personnel/advance-passenger-information-system
     baseURL: https://eapis.cbp.dhs.gov/
     tags:
+      - Border Security
+      - Crew
+      - eAPIS
+      - Manifests
+      - Passengers
+    tags_raw:
       - APIS
       - Border Security
       - Crew
@@ -129,6 +154,12 @@ apis:
     humanURL: https://www.cbp.gov/trade/aes
     baseURL: https://ace.cbp.dhs.gov/
     tags:
+      - AES
+      - AESDirect
+      - EEI
+      - Export
+      - Filings
+    tags_raw:
       - AES
       - AESDirect
       - EEI
