@@ -62,7 +62,7 @@ tags:
   - EDI
   - Export
   - Federal-Government
-  - Imports
+  - Import
   - International Trade
   - Manifests
   - Single Window
@@ -135,6 +135,14 @@ apis:
     humanURL: https://www.cbp.gov/trade/automated
     baseURL: https://ace.cbp.dhs.gov/
     tags:
+      - ACE
+      - Admissibility
+      - Cargo
+      - EDI
+      - Import
+      - PGA
+      - Single Window
+    tags_raw:
       - ACE
       - Admissibility
       - Cargo
