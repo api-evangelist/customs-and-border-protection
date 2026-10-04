@@ -61,7 +61,7 @@ tags:
   - DHS
   - EDI
   - Export
-  - Federal-Government
+  - Federal Government
   - Import
   - International Trade
   - Manifests
@@ -87,6 +87,7 @@ tags_raw:
   - Manifests
   - Single Window
   - Trade Compliance
+  - Federal-Government
 apis:
   - aid: customs-and-border-protection:apis-eapis
     name: APIS / eAPIS
