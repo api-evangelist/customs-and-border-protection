@@ -229,6 +229,12 @@ apis:
       - type: Documentation
         url: https://www.cbp.gov/border-security/ports-entry/cargo-security/acas
 common:
+  - type: Plans
+    url: plans/customs-and-border-protection-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/customs-and-border-protection-rate-limits.yml
+  - type: FinOps
+    url: finops/customs-and-border-protection-finops.yml
   - type: DomainSecurity
     url: security/customs-and-border-protection-domain-security.yml
   - type: GitHubOrganization
