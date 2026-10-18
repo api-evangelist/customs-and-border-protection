@@ -52,7 +52,6 @@ tags:
   - ACE
   - ACAS
   - AES
-  - AESDirect
   - Borders
   - Cargo
   - CBP
@@ -175,7 +174,6 @@ apis:
     baseURL: https://ace.cbp.dhs.gov/
     tags:
       - AES
-      - AESDirect
       - EEI
       - Export
       - Filings
@@ -201,6 +199,11 @@ apis:
     humanURL: https://www.cbp.gov/trade/automated/aesdirect-weblink-inquiry-api
     baseURL: https://ace.cbp.dhs.gov/
     tags:
+      - AES
+      - Filings
+      - Inquiry
+      - WebLink
+    tags_raw:
       - AES
       - AESDirect
       - Filings
