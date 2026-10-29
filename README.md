@@ -1,4 +1,4 @@
-# Customs and Border Protection (customs-and-border-protection)
+# Customs and Border Protection
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,82 +64,108 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-U.S. Customs and Border Protection (CBP) is the federal law enforcement agency within the Department of Homeland Security responsible for facilitating lawful international trade and travel, collecting duties, enforcing trade laws, and securing U.S. borders. CBP's primary trade automation systems are the Automated Commercial Environment (ACE), the Automated Export System (AES) including AESDirect, the Advance Passenger Information System (APIS / eAPIS), and the Air Cargo Advance Screening (ACAS) program. Trade integrations are predominantly delivered via EDI messaging through ACE, with a small set of CBP web services such as the AESDirect WebLink Inquiry API exposed for programmatic use.
+U.S. Customs and Border Protection (CBP) is the federal law enforcement agency within the Department of Homeland Security responsible for apprehending individuals attempting to enter the United States illegally, stemming the flow of illegal drugs and contraband, protecting agricultural and economic interests from harmful pests and diseases, protecting intellectual property, and regulating and facilitating international trade, collecting import duties, and enforcing U.S. trade laws. CBP's primary trade automation systems are the Automated Commercial Environment (ACE), the Automated Export System (AES), AESDirect, the Advance Passenger Information System (APIS / eAPIS), and the Air Cargo Advance Screening (ACAS) program. Trade integrations are predominantly delivered through Electronic Data Interchange (EDI) messaging via ACE, with a small set of CBP web services (e.g., the AESDirect WebLink Inquiry API) exposed for programmatic use.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/customs-and-border-protection/refs/heads/main/apis.yml)
+**Areas:** ACE · ACAS · AES · AESDirect · Borders · Cargo · CBP · Customs · Department of Homeland Security · DHS · EDI · Export
 
-## Scope
+## Customs and Border Protection on APIs.io
 
-- **Type:** Index
-- **Position:** Consuming
-- **Access:** Public
-- **x-type:** government
+Everything profiled for Customs and Border Protection is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/customs-and-border-protection/](https://apis.io/providers/customs-and-border-protection/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (5)
 
-- ACE, ACAS, AES, AESDirect, APIS, Borders, Cargo, CBP, Customs, Department of Homeland Security, DHS, EDI, Exports, Federal Government, Imports, International Trade, Manifests, Single Window, Trade Compliance
+- [APIS / eAPIS](https://apis.io/apis/customs-and-border-protection/apis-eapis/) — The Advance Passenger Information System (APIS) collects pre-arrival and pre-departure manifest data on all passengers and crew members flown or sailed into…
+- [Automated Commercial Environment (ACE)](https://apis.io/apis/customs-and-border-protection/ace/) — ACE is the U.S. Single Window through which the trade community reports imports and exports and CBP and Partner Government Agencies determine admissibility.…
+- [Automated Export System (AES)](https://apis.io/apis/customs-and-border-protection/aes/) — AES is the system through which exporters file Electronic Export Information (EEI) for goods leaving the United States. AES is integrated with ACE and…
+- [AESDirect WebLink Inquiry API](https://apis.io/apis/customs-and-border-protection/aesdirect-weblink-inquiry-api/) — The AESDirect WebLink Inquiry API allows authorized partners to programmatically query AESDirect filings. CBP provides separate certification (test) and…
+- [Air Cargo Advance Screening (ACAS)](https://apis.io/apis/customs-and-border-protection/acas/) — ACAS requires inbound air carriers and other eligible parties to submit advance air cargo data to CBP for security risk-based screening prior to loading on…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2024-12-03
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### APIS / eAPIS
+Authentication, trust centre, and vulnerability disclosure.
 
-The Advance Passenger Information System collects pre-arrival and pre-departure manifest data on passengers and crew. eAPIS is the web portal for creating, managing, and submitting APIS manifests; bulk integrations use UN/EDIFACT PAXLST and CUSRES messages.
+- [Customs And Border Protection Domain Security](https://apis.io/security/customs-and-border-protection/customs-and-border-protection-domain-security/)
 
-**Human URL:** https://www.cbp.gov/travel/travel-industry-personnel/advance-passenger-information-system
+#### Plans and pricing (1)
 
-### Automated Commercial Environment (ACE)
+Published plans, tiers and prices.
 
-The U.S. Single Window for trade reporting. Trade users access ACE via the ACE Secure Data Portal and via ACE Electronic Data Interchange. The ACE Portal modernization completed user access management migration in February 2025.
+- [Customs And Border Protection Plans Pricing](https://apis.io/plans/customs-and-border-protection/customs-and-border-protection-plans-pricing/)
 
-**Human URL:** https://www.cbp.gov/trade/automated
+#### Rate limits (1)
 
-### Automated Export System (AES)
+Published request limits.
 
-AES is the system through which exporters file Electronic Export Information (EEI). AESDirect is CBP's free web-based filing tool integrated with AES through ACE.
+- [Customs And Border Protection Rate Limits](https://apis.io/rate-limits/customs-and-border-protection/customs-and-border-protection-rate-limits/)
 
-**Human URL:** https://www.cbp.gov/trade/aes
+#### FinOps (1)
 
-### AESDirect WebLink Inquiry API
+What the API costs to run, by operation.
 
-A web service that allows authorized partners to query AESDirect filings programmatically. CBP provides separate certification and production environments.
+- [Customs And Border Protection Finops](https://apis.io/finops/customs-and-border-protection/customs-and-border-protection-finops/)
 
-**Human URL:** https://www.cbp.gov/trade/automated/aesdirect-weblink-inquiry-api
+## Where to find this API
 
-### Air Cargo Advance Screening (ACAS)
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-Pre-loading advance data submission for inbound air cargo, transmitted via CBP-approved EDI messages for security risk-based screening.
+- [Website](https://www.cbp.gov/)
+- [Blog](https://www.cbp.gov/rss.xml)
+- [Privacy policy](https://www.cbp.gov/site-policy-notices/privacy-policy)
+- [GitHub](https://github.com/US-CBP)
 
-**Human URL:** https://www.cbp.gov/border-security/ports-entry/cargo-security/acas
+## API Evangelist rating
 
-## Capabilities
+**Kin Score 19.5** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-- Pre-arrival passenger and crew manifest reporting (APIS)
-- Import entry summaries and admissibility determinations (ACE)
-- Electronic Export Information filings (AES / AESDirect)
-- Pre-loading air cargo risk screening (ACAS)
-- Single Window integration with Partner Government Agencies (PGAs)
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 38.1 |
+| Access clarity | 18.4 |
 
-## Use Cases
+**Agent readiness 0.6** — human-only
 
-- Airline and vessel operator APIS manifest submission
-- Customs broker entry filing through ACE EDI
-- Exporter EEI filing via AESDirect or third-party EDI
-- Air carrier ACAS pre-loading data submission
-- Trade community status inquiry via AESDirect WebLink API
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-## Common Resources
+**Regulatory alignment 9.8** — Government & Public Sector
 
-- [CBP Website](https://www.cbp.gov/)
-- [Trade Automation](https://www.cbp.gov/trade/automated)
-- [ACE Service Desk](https://www.cbp.gov/contact/automated-broker-interface-service-desk)
-- [Help Center](https://www.help.cbp.gov/)
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/customs-and-border-protection/](https://apis.io/providers/customs-and-border-protection/).
 
-## Maintainers
+## How this profile is made
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Customs and Border Protection: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/customs-and-border-protection/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
